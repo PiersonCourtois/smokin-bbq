@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--
+   Final Project
+   Smokin' BBQ
+   Pierson Courtois
+
+   Filename:         pgc_guestbook.html
+
+-->
+  <meta charset="utf-8" />
+  <title>Guestbook</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="pgc_reset.css" rel="stylesheet" />
+  <link href="pgc_styles.css" rel="stylesheet" />
+</head>
+<body>
+  <header>
+  <a href="pgc_home.html">
+    <img src="pgc_logo_prettyv2.png" alt="Smokin' BBQ logo" class="logo_black" style="width:150px;height:228px;"/>
+  </a>
+    <nav>
+      <a id="navicon" href="#"><img src="pgc_navicon.png" alt="" /></a>
+      <ul>
+        <li><a href="pgc_home.html">Home</a></li>
+        <li><a href="pgc_calendar.html">Calendar</a></li>
+        <li><a href="pgc_contacts.html">Contact</a></li>
+        <li><a href="pgc_guestbook.html">Guestbook</a></li>
+        <li><a href="pgc_about.html">About</a></li>
+        <li><a href="pgc_map.html">Map</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="guestbook_input">
+    <h1>Leave your feedback!</h1>
+    <form id="comment_form">
+
+      <div class="commentRow">
+        <label for="name">Name</label>
+        <input name="custName" id="name" type="text" />
+      </div>
+      <div class="commentRow">
+        <label for="street">Street address</label>
+        <input name="custStreet" id="street" type="text" />
+      </div>
+      <div class="commentRow">
+        <label for="mail">E-mail</label>
+        <input name="custEmail" id="mail" type="email" />
+      </div>
+      <div class="commentRow">
+        <label for="commBox">Comments</label>
+        <textarea name="contReason" id="commBox"></textarea>
+      </div>
+      <div id="buttons">
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
+
+  </section>
+
+  <section class="guestbook_comments">
+    <div class="grid_container">
+      <div class="grid_item"><h1>John Smith</h1><p>Best Barbecue in the area! Always friendly!</p></div>
+      <div class="grid_item"><h1>Tiffany Garcias</h1><p>Remind me of my mother's barbecue as a kid! Love it!</p></div>
+      <div class="grid_item"><h1>Gordon Ramsey</h1><p>I would happily give one of my Michelin stars to this place. Bravo!</p></div>
+      <div class="grid_item"><h1>Peter Parker</h1><p>So glad I swang by to try this new joint! My tastebuds are tingling!</p></div>
+      <div class="grid_item"><h1>Becky Detering</h1><p>Don't tell my boyfriend, but this is way better than his barbecue! 10/10.</p></div>
+      <div class="grid_item"><h1>Madison Brueck</h1><p>Compliments to the creator of this amazing truck and website developer!</p></div>
+    </div>
+  </section>
+</body>
+<footer>
+  <ul>
+    <p>Site Development by Pierson Courtois</p>
+    <li><a href="pgc_home.html">Home</a></li>
+    <li><a href="pgc_calendar.html">Calendar</a></li>
+    <li><a href="pgc_contacts.html">Contact</a></li>
+    <li><a href="pgc_guestbook.html">Guestbook</a></li>
+    <li><a href="pgc_about.html">About</a></li>
+    <li><a href="pgc_map.html">Map</a></li>
+  </ul>
+</footer>
+
+
+
+</html>
